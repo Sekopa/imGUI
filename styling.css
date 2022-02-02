@@ -1,0 +1,46 @@
+.container
+{
+    
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    height: 700PX;
+    width: 700PX;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+
+
+}
+#inputImage
+{
+    float: left;
+    padding: 1%;
+}
+#processImage
+{
+    float: left;
+    padding: 1%;
+    margin-left: 5%;
+    width: 10%;
+    color: powderblue;
+}
+#outputImage
+{
+    float: right;
+    padding: 1%;
+    color: powderblue;
+}
+h3
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: powderblue;
+}
+#algos
+{
+    width: 100%;
+}
+body
+{
+    background-image: url(vgHAfT.jpg);
+}

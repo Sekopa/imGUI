@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>Image process</h3>
+    <div class="container" id="inputImage">
+        <input type="file" name="image_input" id="image_input" accept="image/*" onchange="preview_image(event);">
+        <img id="display_image" src="" alt="uploaded image" height="500px" width="700px">
+        
+    </div>
+    <div class="container" id="processImage">
+        <select name="Image process" id="algos" size="29">
+            <option value="1">algo1</option>
+            <option value="2">algo2</option>
+            <option value="3">algo3</option>    
+        </select>
+        <button class="process" id="process_img" onclick="img_process(event)">Process</button>
+    </div>
+    
+    <div class="container" id="outputImage"> 
+        <img src="" alt="image here">
+    </div>
+    
+</body>
+</html>
