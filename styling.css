@@ -3,11 +3,10 @@
     
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    height: 700PX;
-    width: 700PX;
+    height: 70vh;
+    width: 36vw;
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(6px);
-
 
 }
 #inputImage
@@ -20,7 +19,7 @@
     float: left;
     padding: 1%;
     margin-left: 5%;
-    width: 10%;
+    width: 10vw;
     color: powderblue;
 }
 #outputImage
@@ -39,8 +38,16 @@ h3
 #algos
 {
     width: 100%;
+    height: 90%;
 }
 body
 {
     background-image: url(vgHAfT.jpg);
+}
+button
+{
+    background-color: powderblue;
+    height: 10%;
+    width: 100%;
+    color: white;
 }
