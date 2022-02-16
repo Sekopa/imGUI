@@ -46,7 +46,7 @@ body
 }
 
 button:hover {
-    background-color: rgb(36, 28, 189);
+    background-color: #2980B9;
 }
 
 .button5 {border-radius: 50%;}
@@ -60,7 +60,7 @@ button:hover {
     cursor: pointer;
 }
 .button {
-    background-color: #0f3d5c5b;
+    background-color: #3498DB;
     border: none;
     color: white;
     padding: 15px 32px;
