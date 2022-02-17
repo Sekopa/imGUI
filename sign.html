@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign</title>
     <link rel="stylesheet" href="styling.css">
+    <script src="script.js"></script>
     <style>
         label{
             color: powderblue;
@@ -12,7 +13,8 @@
     </style>
 </head>
 <body>
-    <div id="sign_in">
+    <div  id="sign_in" style="color: aliceblue;">
+        
        <input type="text" id="user_name" placeholder="type your user name">
        <br><br>
        <input type="text" id="password" placeholder="type your password">
@@ -20,7 +22,7 @@
        <button>sign in</button>
        <br>
        <br>
-       <a href="#">not registered? sign up</a>
+       <a href="#">not registered? sign up</a> --->
     </div>
     <div id="sign_up">
         <h1 style="color: powderblue;">sign up</h1>
@@ -35,14 +37,6 @@
         <input type="email" id="email_address" placeholder="type your email address">
         <br><br>
         <button>sign up</button>
-
     </div>
-    <script src="https://unpkg.com/vue@3"></script>
-    <script>
-        let app = Vue.createApp({
-            
-        })
-        app.mount('#sign_in')
-    </script>
 </body>
 </html>

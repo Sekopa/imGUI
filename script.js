@@ -7,3 +7,4 @@ function preview_image(imgInput)
     }
     reader.readAsDataURL(imgInput.target.files[0])
 }
+
