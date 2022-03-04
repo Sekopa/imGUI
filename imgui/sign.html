@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <link rel="stylesheet" href="styling.css">
+   
+    
+</head>
+<body>
+    <div class="sign" id="sign_in" style="color: aliceblue; display: block;" >{{ app }}</div>
+    
+        <BaseInput
+            v-model="event.user"
+            label="User"
+            type="text"
+        />
+        <br><br>
+        <label for="password_reg">password</label><br>
+        <input type="text" class="password_reg" id="new_password" placeholder="type password">
+        <input type="text" class="password_reg" id="retype_password" placeholder="retype password">
+        <br><br>
+        <label for="email_address">e-mail address</label><br>
+        <input type="email" id="email_address" placeholder="type your email address">
+        <br><br>
+        <button style="height: 10%; width: 20%;" onclick="displaySignIn('sign_in')">sign up</button>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

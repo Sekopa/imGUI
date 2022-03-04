@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div class="topnav">
+ <a class="Home" href="file:///C:/Users/Patrick/Desktop/NOW/mip2.html">Home</a>
+ <a href="#about">about</a>
+</div>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>Image process</h3>
+    <div class="container" id="inputImage" v-html = "template">
+    </div>
+    <div class="container" id="processImage">
+        <label for="Algorithms">Image processing:</label>
+
+        <select name="drop nd" id="cars">
+          <button class="button button5">Process</button>
+          <option value="">Algorithm1</option>
+          <option value="">Algorithm2</option>
+          <option value="">Algorithm3</option>
+          <option value="">Algorithm4</option>
+          <option value="">Algorithm1</option>
+          <option value="">Algorithm2</option>
+          <option value="">Algorithm3</option>
+          <option value="">Algorithm4</option>
+          <option value="">Algorithm1</option>
+          <option value="">Algorithm2</option>
+          <option value="">Algorithm3</option>
+          <option value="">Algorithm4</option>
+          
+        </select> 
+          <button class="button button5">Process</button>
+    </div>
+    
+    <div class="container" id="outputImage"> 
+        <img src="" alt="image here">
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script>
+        let app = Vue.createApp ({
+            el: "#inputImage",
+            data() {
+                return {
+                    template: ` <input type="file" name="image_input" id="image_input" accept="image/*" onchange="preview_image(event);"> <img id="display_image" src="" alt="uploaded image" height="500px" width="700px">`
+                }
+            },
+          
+        })
+        app.mount('#inputImage')
+    </script>
+    
+</body>
+</html>

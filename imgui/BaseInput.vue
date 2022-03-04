@@ -1,6 +1,6 @@
 <template>
 <div>
-    <label>{{ label}}</label><br>
+    <label>{{ label }}</label><br>
     <input 
         :placeholder="label"
         class="field "
