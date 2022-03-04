@@ -110,4 +110,112 @@ button:hover {
     background-color: #04AA6D;
     color: white;
   }
+  body{
+    background-image: url('wallpaper.jpg');
+    background-size:100%;
+  }
+  .container
+  {
+      overflow-x: hidden; 
+      overflow-y:scroll; 
+      border: 2px solid rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      height:900px;
+      width:fit-content;
+      background-color: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(6px);
+      
+      
+      
+      justify-content: center;
+  }
+  
+  .container div {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .container article {
+    background-color: white;
+    color:aqua;
+    padding: 12px;
+    text-decoration: none;
+    margin-left:300px ;
+    margin-top: 224px;
+  }
+  
+  
+  
+  
+  body{
+    background-color: burlywood;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .frame{  
+    width: 450px;
+    height: 150px;  
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    background-color: whitesmoke;
+  }    
+  
+  img{  
+    max-height: 100%;  
+    max-width: 100%; 
+    position: absolute;  
+    top: 0%;
+    bottom: 0%;  
+    left: 0%;  
+    right: 0%;  
+    margin: 0%;
+    
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .container.scroll{
+  Width:50px;
+  Height:100px;
+  
+  }
+  
+  .text {
+    font-size: 10px;
+    padding-left: 20px;
+    margin-left: 250px;
+  }
+  h1{
+    font-size: 17px;
+    
+  }
   
