@@ -32,3 +32,8 @@ function displaySignUp(content)
     }
     document.getElementById(content).style.display = "block";
 }
+
+const app = Vue.createApp({
+    template: "sign In"
+})
+app.mount('#sign_in')
