@@ -9,11 +9,12 @@
     
 </head>
 <body>
-    <BaseInput
-        v-model="event.user"
-        label="User"
-        type="text"
-    />
+        <BaseInput
+            v-model="event.user"
+            label="User"
+            type="text"
+            class="field"
+        >
         <br><br>
         <label for="password_reg">password</label>
         <br><br>
@@ -24,7 +25,6 @@
         <input type="email" id="email_address" placeholder="type your email address">
         <br><br>
         <button style="height: 10%; width: 20%;" onclick="displaySignIn('sign_in')">sign up</button>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
